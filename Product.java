@@ -33,11 +33,11 @@ System.out.println("enter pname of third product");
 p3.pname=sc1.nextLine();
 if(p1.price<p2.price&&p1.price<p3.price)
 {
-System.out.println(p1.pname + "has the lowest price with code" + p1.pcode +"and price" + p1.price);
+System.out.println(p1.pname + " has the lowest price with code" + p1.pcode +"and price" + p1.price);
 }
 else if(p2.price<p3.price)
 {
-System.out.println(p2.pname + "has lowest price with code" + p2.pcode +"and price" + p2.price);
+System.out.println(p2.pname + " has lowest price with code" + p2.pcode +"and price" + p2.price);
 }
 else
 {
